@@ -1,0 +1,6 @@
+<?php
+namespace udemzisoft;
+interface sample
+{
+	//public function start();
+}

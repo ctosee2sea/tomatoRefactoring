@@ -1,0 +1,6 @@
+<?php
+namespace udemzisoft;
+class sample extends tomatoObject implements sample
+{
+	//public function start();
+}
