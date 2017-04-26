@@ -1,6 +1,7 @@
 <?php
 //git customized
 //intoServer setting
+//local MBPR setting
 use udemzisoft\tomato as ut;
 require 'tomatoInclude/head.php';
 ini_set('display_errors', 1);
