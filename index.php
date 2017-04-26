@@ -1,8 +1,6 @@
 <?php
-//git customized
-//intoServer setting
-//local MBPR setting
 use udemzisoft\tomato as ut;
+
 require 'tomatoInclude/head.php';
 ini_set('display_errors', 1);
 
@@ -38,7 +36,7 @@ $ARG = getpost::multi([
 $ARG['authority'] = $AUTHORITY;
 $ARG['mode']='list';//임시
 
-$tomato = new ut\board($ARG,$DB);
+$tomato = new ut\board($ARG, $DB);
 $tomato->action();
 
 
